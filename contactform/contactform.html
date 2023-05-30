@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="contactform.css" />
+  </head>
+  <body>
+    <header>
+      <div id="confirmationBanner"></div>
+    </header>
+    <div class="container">
+      <form
+        action=""
+        id="myForm"
+        name="myForm"
+        onsubmit="validateForm(); return false;"
+      >
+        <div class="text-input-div">
+          <input
+            required
+            id="firstName"
+            type="text"
+            placeholder="First Name"
+            class="text-input"
+          />
+          <input
+            required
+            id="lastName"
+            type="text"
+            placeholder="Last Name"
+            class="text-input"
+          />
+        </div>
+        <div class="radiobuttons-div">
+          <p>Gender</p>
+          <label for="M" class="radiobutton"
+            ><input type="radio" name="group" id="M" value="M" /> M
+          </label>
+
+          <label for="F" class="radiobutton"
+            ><input type="radio" name="group" id="F" value="F" /> F
+          </label>
+        </div>
+
+        <textarea name="Your message here" id="" cols="45" rows="10">
+ Your message here...</textarea
+        >
+        <button onclick="validateForm();submitForm()" type="button">
+          Submit
+        </button>
+      </form>
+      <div class="img-container">
+        <img src="download1.jpg" alt="" />
+      </div>
+    </div>
+
+    <script src="contactform.js"></script>
+  </body>
+</html>
