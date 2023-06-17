@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="menu.css" />
+    <script
+      src="https://kit.fontawesome.com/cb416f87b6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h1>Find Meals for Your Ingredients</h1>
+      <h4>Real food doesn't have ingredients, real food is ingredients.</h4>
+      <h4>-Jamie Oliver</h4>
+      <div class="box">
+        <input id="ingredientInput" type="text" placeholder="Search..." />
+        <button id="searchButton" type="submit">
+          <i class="fas fa-search" style="color: #ffffff"></i>
+        </button>
+      </div>
+    </header>
+    <article>
+      <div id="searchResultsTitle"></div>
+      <br />
+      <div id="searchResults" class="resultscontainer"></div>
+      <div id="searchResultsContainer"></div>
+    </article>
+
+    <script src="menu.js"></script>
+  </body>
+</html>

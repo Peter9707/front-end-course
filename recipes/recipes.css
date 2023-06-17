@@ -1,0 +1,157 @@
+header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+  font-style: italic;
+  color: grey;
+}
+
+#searchButton {
+  background-color: orange;
+  border-radius: 0px 30px 30px 0px;
+  height: 50px;
+  border: none;
+  position: relative;
+  left: 10px;
+}
+
+.box {
+  width: 400px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  border-color: orange;
+  border-width: 10px;
+  border-style: solid;
+  border-width: 3px;
+}
+
+i {
+  font-size: 35px;
+}
+
+input {
+  flex: 1;
+  height: 40px;
+  border: none;
+  outline: none;
+}
+
+article {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#searchResultsTitle {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+#searchResults {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.mealDiv img {
+  width: 400px;
+  height: 350px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.mealDiv {
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 10px;
+  height: 500px;
+  width: 400px;
+  box-shadow: 0px 2px 2px 0px;
+}
+
+#searchResults button {
+  height: 50px;
+  width: 200px;
+  background-color: orange;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  border: none;
+}
+
+.recipe-details {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  z-index: 100;
+  background-color: orange;
+  color: white;
+  height: 700px !important;
+  width: 600px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+}
+
+.recipe-content img {
+  border-radius: 100px;
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.recipe-content div {
+  background-color: white;
+  color: orange;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  width: 90px;
+  height: 30px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.recipe-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recipe-content a {
+  display: block;
+  color: white;
+  margin-top: 20px;
+}
+
+.close-button {
+  align-self: flex-end;
+  padding: 5px;
+  cursor: pointer;
+}
