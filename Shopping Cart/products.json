@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Steinway and Sons",
+        "category": "grand",
+        "price": 10000,
+        "image": { "fields": { "file": { "url": "./images/piano-1.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Bösendorfer",
+        "category": "grand",
+        "price": 9000,
+        "image": { "fields": { "file": { "url": "./images/piano-2.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Yamaha",
+        "category": "grand",
+        "price": 9500,
+        "image": { "fields": { "file": { "url": "./images/piano-3.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Upright Yamaha",
+        "category": "upright",
+        "price": 5000,
+        "image": { "fields": { "file": { "url": "./images/piano-4.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "Nord Piano 5",
+        "category": "electric",
+        "price": 4500,
+        "image": { "fields": { "file": { "url": "./images/piano-5.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Kawai",
+        "category": "grand",
+        "price": 7000,
+        "image": { "fields": { "file": { "url": "./images/piano-6.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "Upright Kawai",
+        "category": "upright",
+        "price": 4000,
+        "image": { "fields": { "file": { "url": "./images/piano-7.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "Roland",
+        "category": "electric",
+        "price": 2500,
+        "image": { "fields": { "file": { "url": "./images/piano-8.jpeg" } } }
+      }
+    }
+  ]
+}
